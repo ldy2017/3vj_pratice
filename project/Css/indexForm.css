@@ -1,0 +1,167 @@
+
+/* .page{ width: 1903px;margin:0 auto;}
+
+.head{ margin:0 auto;}
+
+.topnav{ width:80%; margin:0 auto;}
+
+.topnav .topnav_info1{float: left;margin-left: 200px;}
+
+.topnav .topnav_info2{float:right;margin-right: 200px;}
+
+.topnav .topnav_icon{float:right;margin-right: -35px;}
+
+.topnav .topnav_info2 ul{display: inline;}
+
+.topnav .topnav_info2 ul li{padding-right: 20px;}
+
+.topnav a{color:black;}
+
+.bav-wrap{clear: both;position: relative;width: 100%;margin:0 auto;background: url("../images/6.png") repeat-x;overflow: hidden;}
+
+.bav-wrap .bav_logo{float: left;margin-left: 367px;}
+
+.bav-wrap .bav_right{float:right;width:1000px;margin-right: 212px;}
+
+.bav_right ul{list-style: none;float: left;font-size:15px;margin-top:25px;margin-left: -173px;}
+
+.bav_right ul li a{color:#fff;}
+
+.bav_right .right_pic{float:right;margin-right:200px;}
+
+.bav_right ul li{ padding:0 30px;} */
+
+/* .content{ clear: both;margin:0 auto;height: 900px;}
+
+.content .content-menu{float: left;margin-left:371px;margin-top:20px;border: 1px solid #ebebeb;width: 190px;box-shadow:  6px 6px 13px #ccc;}
+
+.content .content-menu>div{text-align: center;padding:0 20px;border-bottom: 1px solid #ccc;background-color: #f7f7f7;}
+
+.content .content-menu ul{ margin-left: -23px;}
+
+.content-menu ul li a{padding-right: 10px;color:#6b6b6b;}
+
+.content-menu ul li img{display: block;}
+
+.content-menu ul li div{margin-top:5px;margin-bottom: 20px;margin-right: 37px;border-bottom: 1px solid #ccc;} */
+.page .content{height: 1200px;}
+
+.content .content-page{float: right;margin-right: 395px;margin-top: 20px;width: 930px;height:100px;}
+
+.page_btn{margin-top:2px;margin-bottom: 4px;padding-left: 2px;border-bottom: 1px solid #ebebeb;}
+
+.content-page-btn{margin-top: 10px;}
+
+.content-page-btn .cs1{border:none;border-top:2px solid #5092cf;background-color: #fff;display: inline;padding:15px 20px;margin: 0 -2px;color: #538fcd;}
+
+.content-page-btn div{border: none;background-color: #f5f5f5;display: inline;padding:15px 20px;margin: 0 -2px;color: #847f7f;}
+
+.content-page .pagehead{position: relative;background-color:#ecf6ff; margin-left:50px;margin-top: 30px; width:500px;height:40px;overflow: hidden;color: #797474;line-height: 40px;}
+
+.content-page .pagehead span{margin-left: 45px;}
+
+.pagehead img{position: absolute;left: 0px;top:0px;}
+
+::-webkit-input-placeholder{text-indent: 15px;color:#d1d1d1;}
+
+.content-page-item1-form p{margin:20px 48px; font-weight: bold;}
+
+.content-page-item1-form span{color: red;}
+
+.content-page-item1-form input ,.content-page-item1-form textarea{border: 1px solid #ebebeb;} 
+
+.cpif-name{margin-top: 20px;margin-left: 48px;height:40px;}
+
+.cpif-name label{float: left;}
+
+.cpif-name>div{float:right;margin-right: 313px;width: 410px;}
+
+.cpif-name input{padding: 10px 0;}
+
+.form-input-tip{display: none;position: relative;}
+
+.form-input-tip>img{position: absolute;left: 0;top:0;}
+
+.form-input-tip>a{padding-left:20px;}
+
+.cpif-editlogo{ clear:both;margin-top: 20px;margin-left: 48px; height: 110px;}
+
+.cpif-editlogo label{float: left;margin-left: 3px;}
+
+.cpif-editlogo div{float:right;margin-right:630px;padding: 10px 0;}
+
+.cpif-editlogo div img{display: block;}
+
+.cpif-adr{clear: both;margin-top: 20px; margin-left: 48px;height: 40px;}
+
+.cpif-adr label{float: left;}
+
+.cpif-adr-input{float: right;margin-right: 23px;width:700px;}
+
+.cpif-adr input{padding: 10px 0;}
+
+.cpif-tel{clear: both;margin-top: 24px; margin-left: 47px;width:506px;height: 40px;}
+
+.cpif-tel label{float:left;margin-left: 6px;}
+
+.cpif-tel-input{float: left;margin-left:102px;}
+
+.cpif-tel input{display: inline;padding:10px 0;}
+
+.cpif-mobi{clear:both;margin-top: 24px;margin-left: 47px;height: 40px;}
+
+.cpif-mobi label{float: left;margin-left: 5px;}
+
+.cpif-mobi input{float: left; margin-left:102px;padding: 10px 0;margin-top: -4px;}
+
+.cpif-industry{clear:both;margin-top:18px; margin-left: 47px;height: 60px}
+
+.cpif-industry label{float: left;}
+
+.cpif-industry div{float: right; margin-right: 520px;}
+
+.cpif-intro {clear:both;margin-top:18px;margin-left: 52px;height: 115px;}
+
+.cpif-intro label{float: left;}
+
+.cpif-intro textarea{float: right; margin-right: 323px; margin-top:8px;width: 400px;height: 95px;}
+
+.cpif-domain{clear: both;margin-top: 30px;margin-left: 50px;height: 45px;}
+
+.cpif-domain label{ float: left; }
+
+.cpif-domain div{float: right; margin-right: 259px;}
+
+.cpif-domain .cpif-domain-btn{display:inline;margin-top: -9px;background-color: #599df2;padding:8px 18px;color: #fff;}
+
+.cpif-editdomain{clear: both;display:none;margin-top: 30px;margin-left: 50px;padding:20px 0;background-color:#fbfafa;}
+
+.cpif-editdomain input{margin-left: 95px;padding: 10px 0;background-color: #fbfafa;border: 1px solid #ccc;}
+
+.cpif-editdomain .cpif-editdomain-btn{background-color:#599df2;margin-left:145px;margin-top:20px;width:30px;padding: 5px 30px;color: #fff;}
+
+.cpif-btn input{margin-left: 195px;margin-top: 20px; border: none ;background-color:  #fe5417;padding: 10px 20px;}
+
+.overlay{position: absolute;display:none;left: 0;top:0;width: 100%;height: 120%;z-index:10;background-color:black;opacity:.5;}
+
+.setlogo{position: absolute;display:none;left: 710px;top: 260px;z-index: 11;background-color: #fff;height: 600px;}
+
+.setlogo .setlogo-head{position:relative;margin: 0 auto;background-color:#e5e5e5;height: 40px;width: 777px;text-indent: 30px;line-height: 40px}
+
+.setlogo-head img{position: absolute;right: 0 ;top:0;}
+
+.setlogo-btn{position:relative;margin-top:20px;margin-left:30px;width: 100px;height: 40px;background-color: #e5e5e5;line-height: 40px;text-indent: 20px;}
+
+.setlogo-btn input{position: absolute; top:0;left:0;width:100px;height: 38px;opacity: 0;}
+
+.setlogo-left{float: left;margin-top: 10px;margin-left: 30px;}
+
+.setlogo-left-area{background-color: #e5e5e5;margin-right:20px;width:500px;height: 400px;}
+
+.setlogo-right{float:right;margin-right: 65px;margin-top: 30px;}
+
+.setlogo-right-area{background-color:#e5e5e5;width: 160px;height: 160px;}
+
+.setlogo-right-btn{margin-top: 195px;}
+
+.setlogo-right-btn button{padding: 8px 20px;margin-right: 10px;border:none;background-color:#e5e5e5;}
