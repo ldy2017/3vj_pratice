@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>service</title>
+<link href="../Css/plan.css" rel="stylesheet">
+<link href="../Css/common.css" rel="stylesheet" >
+<script  src="../Scripts/jquery-3.2.1.min.js"></script>
+<script  src="../Scripts/Plan.js"></script>
+<script src="../Scripts/My97DatePicker/WdatePicker.js"></script>
+</head>
+<body>
+<!-- S 表单页-->
+<div class="page">
+<!-- S 头部-->
+<div class="head">
+	<!-- S 顶部导航 -->
+
+		<div class="topnav">
+			<!-- top导航左部分 -->
+			<div class="topnav_info1">
+				<a href="#">返回三维家平台</a>
+				<a href="#">我的店铺</a>
+			</div>
+			<!-- top导航右部分 -->
+			<div class="topnav_info2">	
+					<ul class="topnav_info2_ul">
+						<li  style="border-left:none;" class="dropdn">
+							<a href="#">用户</a>
+							<div class="dropdn-content">
+								<ul>
+								<li><a href="#">------</a></li>
+								<li><a href="#">------</a></li>
+								<li style="border-bottom:1px solid #ebebeb;"><a href="#">------</a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="dropdn">
+							<a href="#">我的三维家∨</a>	
+							<div class="dropdn-content">
+								<ul>
+								<li><a href="#">------</a></li>
+								<li><a href="#">------</a></li>
+								<li style="border-bottom:1px solid #ebebeb;"><a href="#">---</a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="dropdn">
+							<a href="#">我的收藏∨</a>
+							<div class="dropdn-content">
+								<ul>
+								<li><a href="#">我收藏的模型</a></li>
+								<li><a href="#">我收藏的方案</a></li>
+								<li style="border-bottom:1px solid #ebebeb;"><a href="#">我收藏的全景</a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="dropdn">
+							<a href="#">培训学习∨</a>
+							<div class="dropdn-content">
+								<ul>
+								<li><a href="#">------</a></li>
+								<li><a href="#">------</a></li>
+								<li style="border-bottom:1px solid #ebebeb;"><a href="#">---</a></li>
+								</ul>
+							</div>	
+						</li>
+						<li><a href="#">客户服务</a></li>
+					</ul>					
+			</div>
+			<!--顶部导航的一小图标-->
+			<div class="topnav_icon">
+					<img src="../images/3.png"/>
+			</div>
+
+		</div>
+	<!-- E 顶部导航 -->
+
+	<!-- S 导航栏mainBav-->
+		<div class="bav-wrap">
+			<div class="bav_logo">
+				<a href="#" title="返回首页">
+				<img src="../images/logo.png"/>
+				</a>
+			</div>
+			<!--导航栏中的菜单栏-->
+			<div class="bav_right">
+					<ul>
+						<li><a href="../Index.html">首页</a></li>
+						<li><a href="Service.html">我的服务</a></li>
+						<li><a href="#">我的资产</a></li>
+						<li><a href="#">培训与学习</a></li>
+					</ul>
+				
+
+				<div class="right_pic">
+					<img src="../images/4.png"/>
+				</div>
+			</div>
+		</div>
+	<!-- E 导航栏mainBav-->
+</div>
+<!-- E 头部-->
+
+	<!-- 内容页面-->
+	<div class="content">
+		<!-- S 内容页面左边的菜单栏-->
+		<div class="content-menu">
+			<div><span>商铺中心</span></div>
+			<ul>
+				<li>
+					<img src="../images/0_10.png"/>
+					<div>
+					<a href="IndexForm.html">资料设置</a>
+					<a href="#">查看店铺</a>
+					</div>
+				</li>
+				<li>
+					<img src="../images/0_26.png"/>
+					<div>
+					<a href="Plan.html">我的方案</a>
+					<a href="#">我的效果图</a>
+					<a href="#">我的全景</a>
+					<a href="#">方案分类</a>
+					</div>
+				</li> 
+				<li>
+					<img src="../images/0_38.png"/>
+					<div>
+					<a href="#">发布新产品</a>
+					<a href="#">我的产品</a>
+					<a href="#">产品分类</a>
+					</div>	
+				</li>				
+				<li>
+					<img src="../images/0_003.png"/>
+					<div>
+					<a href="#">子帐号管理</a>
+					<a href="#">操作记录</a>
+					</div>
+				</li>
+				<li>
+					<img src="../images/0_56.png"/>
+					<div>
+					<a href="#">我的客户</a>
+					<a href="#">预约申请</a>
+					</div>
+				</li>
+				<li>
+					<img src="../images/0_68.png">
+					<a href="#">模型</a>
+					<a href="#">方案</a>
+					<a href="#">全景</a>
+					<a href="#">商品</a>
+					<a href="#">收藏夹分类</a>
+				</li>
+			</ul>
+		</div>
+		<!-- E 内容页面左边的菜单栏-->
+		
+		<!-- S 内容页面中菜单栏的右部内容-->
+	
+		<div class="content-page">
+			<!-- 面包屑导航栏 -->
+            <div class="breadcrumbs">
+                <a href="#">首页</a>><a href="#">方案管理</a>><a href="#">我的方案</a>><span>方案详情</span>
+			</div>
+			<!-- 效果图和图库的切换选项卡 -->
+            <div class="page-btn">
+                    <div class="cs1" id="b1">我的效果图</div>
+                    <div id="b2">效果图库</div>
+			</div>
+			<!-- 搜索输入栏 -->
+            <div class="search-input">
+                <label>名称:</label>
+                <input type="text" value="三维家-爱窝门店1号">
+                <label>时间:</label>
+                <input class="Wdate" type="text" onClick="WdatePicker()">
+				<span>一</span>
+				<input style="margin-left:5px;" class="Wdate" type="text" onClick="WdatePicker()">
+				<button>搜索</button>
+			</div>
+			<!-- 渲染图和方案图片的切换按钮 -->
+            <div class="btn-box">
+                <button class="beselected">渲染图 </button>
+                <button style="margin-left:-3px;">方案图片</button>
+			</div>
+			<!-- 全选框和图片处理按钮 -->
+            <div class="btn-dealpicture">
+				<span class="ckbox">				
+					<input type="checkbox" class="allcheck">
+				</span>
+                <button>下载</button>
+                <button>删除</button>
+                <a>共<span class="orange_span">200</span>张渲染图</a>
+			</div>
+			<!-- 方案渲染图 -->
+            <div class="page-schemecontainer">
+                <ul>
+                    <li>
+						<span class="page-schemecontainer-pic">
+							<img src="../images/2-1_03.jpg">
+							<span class="delay"></span>
+							<span class="page-schemecontainer-pic-icon">
+								<a href="#"><img src="../images/2-2_03.jpg"></a>
+								<a href="#"><img src="../images/2-1_04.jpg"></a>
+								<a href="#"><img src="../images/2-2_05.jpg"></a>
+								<a href="#"><img src="../images/2-1_06.jpg"></a>
+								<a href="#" style="float:right;margin-right:10px;"><img src="../images/2-1_08.jpg"></a>
+							</span>
+						</span>						
+						<span class="ckbox">
+							<input type="checkbox" class="ch">
+						</span>
+						<label>欧普照明 奢华水晶</label><br>
+                        <a>2013年2月30日 12:56</a>
+                    </li>
+                    <li>
+						<span class="page-schemecontainer-pic">
+							<img src="../images/2-1_05.jpg">
+							<span class="delay"></span>
+							<span class="page-schemecontainer-pic-icon">
+								<a href="#"><img src="../images/2-2_03.jpg"></a>
+								<a href="#"><img src="../images/2-1_04.jpg"></a>
+								<a href="#"><img src="../images/2-2_05.jpg"></a>
+								<a href="#"><img src="../images/2-1_06.jpg"></a>
+								<a href="#" style="float:right;margin-right:10px;"><img src="../images/2-1_08.jpg"></a>
+							</span>
+						</span>		
+						<span class="ckbox">
+								<input type="checkbox" class="ch">
+						</span>
+						<label>欧普照明 奢华水晶</label><br>
+                        <a>2013年2月30日 12:56</a>
+                    </li>
+                    <li>
+						<span class="page-schemecontainer-pic">
+							<img src="../images/2-1_07.jpg">
+							<span class="delay"></span>
+							<span class="page-schemecontainer-pic-icon">
+								<a href="#"><img src="../images/2-2_03.jpg"></a>
+								<a href="#"><img src="../images/2-1_04.jpg"></a>
+								<a href="#"><img src="../images/2-2_05.jpg"></a>
+								<a href="#"><img src="../images/2-1_06.jpg"></a>
+								<a href="#" style="float:right;margin-right:10px;"><img src="../images/2-1_08.jpg"></a>
+							</span>
+						</span>		
+
+						<span class="ckbox">
+								<input type="checkbox" class="ch">
+						</span>
+						<label>欧普照明 奢华水晶</label><br>
+                        <a>2013年2月30日 12:56</a>
+                    </li>
+                    <li>
+						<span class="page-schemecontainer-pic">
+							<img src="../images/2-1_09.jpg">
+							<span class="delay"></span>
+							<span class="page-schemecontainer-pic-icon">
+								<a href="#"><img src="../images/2-2_03.jpg"></a>
+								<a href="#"><img src="../images/2-1_04.jpg"></a>
+								<a href="#"><img src="../images/2-2_05.jpg"></a>
+								<a href="#"><img src="../images/2-1_06.jpg"></a>
+								<a href="#" style="float:right;margin-right:10px;"><img src="../images/2-1_08.jpg"></a>
+							</span>
+						</span>		
+                        
+						<span class="ckbox">
+								<input type="checkbox" class="ch">
+						</span>
+						<label>欧普照明 奢华水晶</label><br>
+						<a>2013年2月30日 12:56</a>
+                    </li>
+                    <li>
+						<span class="page-schemecontainer-pic">
+							<img src="../images/2-1_15.jpg">
+							<span class="delay"></span>
+							<span class="page-schemecontainer-pic-icon">
+								<a href="#"><img src="../images/2-2_03.jpg"></a>
+								<a href="#"><img src="../images/2-1_04.jpg"></a>
+								<a href="#"><img src="../images/2-2_05.jpg"></a>
+								<a href="#"><img src="../images/2-1_06.jpg"></a>
+								<a href="#" style="float:right;margin-right:10px;"><img src="../images/2-1_08.jpg"></a>
+							</span>
+						</span>		
+				
+                       
+						<span class="ckbox">
+								<input type="checkbox" class="ch">
+						</span>
+						<label>欧普照明 奢华水晶</label><br>
+                        <a>2013年2月30日 12:56</a>
+                    </li>
+                    <li>
+						<span class="page-schemecontainer-pic">
+							<img src="../images/2-1_16.jpg">
+							<span class="delay"></span>
+							<span class="page-schemecontainer-pic-icon">
+								<a href="#"><img src="../images/2-2_03.jpg"></a>
+								<a href="#"><img src="../images/2-1_04.jpg"></a>
+								<a href="#"><img src="../images/2-2_05.jpg"></a>
+								<a href="#"><img src="../images/2-1_06.jpg"></a>
+								<a href="#" style="float:right;margin-right:10px;"><img src="../images/2-1_08.jpg"></a>
+							</span>
+						</span>		
+                       
+						<span class="ckbox">
+								<input type="checkbox" class="ch">
+						</span>
+						<label>欧普照明 奢华水晶</label><br>
+                        <a>2013年2月30日 12:56</a>
+                    </li>
+                    <li>
+						<span class="page-schemecontainer-pic">
+							<img src="../images/2-1_17.jpg">
+							<span class="delay"></span>
+							<span class="page-schemecontainer-pic-icon">
+								<a href="#"><img src="../images/2-2_03.jpg"></a>
+								<a href="#"><img src="../images/2-1_04.jpg"></a>
+								<a href="#"><img src="../images/2-2_05.jpg"></a>
+								<a href="#"><img src="../images/2-1_06.jpg"></a>
+								<a href="#" style="float:right;margin-right:10px;"><img src="../images/2-1_08.jpg"></a>
+							</span>
+						</span>		
+                        
+						<span class="ckbox">
+								<input type="checkbox" class="ch">
+						</span>
+						<label>欧普照明 奢华水晶</label><br>
+                        <a>2013年2月30日 12:56</a>
+                    </li>
+                    <li>
+						<span class="page-schemecontainer-pic">
+							<img src="../images/2-1_18.jpg">
+							<span class="delay"></span>
+							<span class="page-schemecontainer-pic-icon">
+								<a href="#"><img src="../images/2-2_03.jpg"></a>
+								<a href="#"><img src="../images/2-1_04.jpg"></a>
+								<a href="#"><img src="../images/2-2_05.jpg"></a>
+								<a href="#"><img src="../images/2-1_06.jpg"></a>
+								<a href="#" style="float:right;margin-right:10px;"><img src="../images/2-1_08.jpg"></a>
+							</span>
+						</span>		
+                      
+						<span class="ckbox">
+								<input type="checkbox" class="ch">
+						</span>
+						<label>欧普照明 奢华水晶</label><br>
+                        <a>2013年2月30日 12:56</a>
+                    </li>
+                </ul>
+
+            </div>
+		</div>
+		<!-- E 内容页面右边部分 -->
+	</div>
+	<!-- E 内容页面-->
+	<!-- S 页面底部 -->
+	<div class="footer">
+		<div class="aboutus">
+			<a href="#">关于三维家</a>
+			<a href="#">联系我们</a>
+			<a href="#">产品服务</a>
+			<a href="#">意见反馈</a>
+			<a href="#">帮助中心</a>
+			<a  style="border-right: none;" href="#">关注我们</a>
+		</div>
+		<div>
+		<p>@2012-2016 All rights reserved</p>
+		<p>广东三维家信息科技有限公司 版权所有</p>
+		</div>
+	</div>
+	<!-- E 页面底部 -->
+</div>
+</body>
+</html>		

@@ -140,6 +140,8 @@ body{ font-family:'helvetica neue';font-size:12px;line-height: 2em;color: black;
 	
 }
 
+ul{list-style: none;}
+
 li{	display: inline;}
 
 a{ text-decoration: none; color:#000;}
@@ -184,4 +186,21 @@ table tr td{
 }
 .footer .aboutus a:hover{
 	color: #528fcc;
+}
+/* 复选框的样式 */
+.ckbox{
+	position: relative;
+    display: inline-block;
+    border: 1px solid #ccc;
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+}
+.becheck{
+    background:url("../images/check.jpg") no-repeat center;
+}
+.ch{
+	opacity: 0;
+	position: absolute;
+    margin: 0;
 }
