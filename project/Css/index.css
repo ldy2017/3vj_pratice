@@ -41,7 +41,7 @@
 	padding-bottom: 35px;
 	padding-left: 0;
 	margin-right: 16px;
-	margin-top:23px;
+	margin-top:12px;
 	list-style: none;	
 }
 
@@ -56,6 +56,9 @@
 	left: 45px;
 	top:20px;
 	color:#72b8f3;
+}
+.content-page-part2>ul img{
+	margin-top: 15px;
 }
 .cppi-icon{
 	float: left;
