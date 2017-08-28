@@ -35,6 +35,6 @@ $(document).ready(function(){
     });
     second.click(function(){
         first.removeClass("beselected");
-        second.addClass("beselected");
+            second.addClass("beselected");
     });
 })

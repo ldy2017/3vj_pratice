@@ -123,6 +123,7 @@
 .page_serve table tr td img{
 	float: left;
 	margin-left: 48px;
+	border-radius: 100% 100%;
 }
 .page_serve table tr td div{
 	float: right;

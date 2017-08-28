@@ -148,7 +148,7 @@
 
 .setlogo .setlogo-head{position:relative;margin: 0 auto;background-color:#e5e5e5;height: 40px;width: 777px;text-indent: 30px;line-height: 40px}
 
-.setlogo-head img{position: absolute;right: 0 ;top:0;}
+.setlogo-head img{position: absolute;right: -1px ;top:0;}
 
 .setlogo-btn{position:relative;margin-top:20px;margin-left:30px;width: 100px;height: 40px;background-color: #e5e5e5;line-height: 40px;text-indent: 20px;}
 
